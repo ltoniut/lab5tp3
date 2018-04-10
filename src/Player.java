@@ -13,6 +13,8 @@ public class Player extends Observable implements Runnable {
 	
 	private Dealer dealer;
 	
+	
+	
 	public Player(String name, Dealer dealer, int id) {
 		this.name = name;
 		this.hasCards = false;
